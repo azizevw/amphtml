@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tousowpz/blog.tousecurity.com/wp-content/
+    - /bin/cp -R $DEPLOYPATH
+---
